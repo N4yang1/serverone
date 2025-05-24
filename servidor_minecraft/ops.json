@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "f7671b4d-dcda-3af0-b788-2406f17d1afd",
+    "name": "nayang",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
