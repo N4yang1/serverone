@@ -71,21 +71,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/flint_and_steel": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "has_obsidian": "2025-05-24 04:34:02 +0000"
+      "netherite_armor": "2025-05-24 04:30:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-05-24 04:30:21 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2025-05-24 04:30:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-05-24 04:34:02 +0000"
     },
     "done": true
   },
@@ -108,6 +108,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-05-24 04:30:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "enchanted_golden_apple": "2025-05-24 04:30:51 +0000"
@@ -120,27 +126,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2025-05-24 04:34:02 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:story/form_obsidian": {
     "criteria": {
-      "has_snowball": "2025-05-24 04:30:47 +0000"
+      "obsidian": "2025-05-24 04:34:02 +0000"
     },
     "done": true
   },
-  "minecraft:nether/netherite_armor": {
+  "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
-      "netherite_armor": "2025-05-24 04:30:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2025-05-24 04:30:21 +0000"
+      "has_obsidian": "2025-05-24 04:34:02 +0000"
     },
     "done": true
   },
