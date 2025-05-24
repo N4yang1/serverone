@@ -1793,3 +1793,15 @@
 [04:51:34] [User Authenticator #0/INFO]: UUID of player nayang is f7671b4d-dcda-3af0-b788-2406f17d1afd
 [04:51:34] [Server thread/INFO]: nayang joined the game
 [04:51:34] [Server thread/INFO]: nayang[/127.46.245.233:49105] logged in with entity id 2138 at ([world]85.69999998807907, 108.0, -165.69999998807907)
+[04:55:17] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[04:55:19] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[04:55:32] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[04:55:45] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[04:56:03] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[04:58:30] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[05:00:25] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[05:00:56] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[05:01:48] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[05:01:50] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[05:02:31] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
+[05:03:41] [Server thread/WARN]: [MythicMobs] An error occurred while adding an AIGoalSelector, enable debugging for a stack trace.
