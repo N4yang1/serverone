@@ -203,7 +203,7 @@ phoenixLEAP:
   - skill{s=phoenixLEAPLAND} @Ring{radius=12;points=5;yoffset=1}
   - skill{s=phoenixLEAPAOE} @PIR{r=10}
   - delay 5
-  - effect:blockmask{m=magma_block;r=1;d=120} @Ring{radius=6;points=24;yoffset=0}
+  - effect:blockmask{m=magma;r=1;d=120} @Ring{radius=6;points=24;yoffset=0}
   
   
   
@@ -215,7 +215,7 @@ phoenixLEAPLAND:
 phoenixLEAPLAND-Tick:
   Skills:
   #- effect:blockmask{m=fire;r=1;oa=true;d=3} @origin
-  - effect:blockmask{m=magma_block;r=1;d=120} @origin
+  - effect:blockmask{m=magma;r=1;d=120} @origin
   #- effect:particles{p=minecraft:mobflame_emitter;amount=5;speed=0.1;hS=0.4;vS=0.4;d=true;dir=0,1,0;repeat=20;repeatInterval=5;y=-1} @origin
   - effect:particles{p=flame;amount=5;speed=0;hS=0.2;vS=0.2} @origin
   - effect:particles{p=large_smoke;amount=3;speed=0;hS=0.5;vS=0.5;d=true;dir=0,1,0;speed=.1} @origin
@@ -232,7 +232,7 @@ phoenixLEAPLAND-Hit:
 phoenixLEAPAOE:
   Skills:
   - throw{velocity=2;velocityY=10}
-  - effect:blockmask{m=magma_block;r=1} @Line{radius=10;fromorigin=true}
+  - effect:blockmask{m=magma;r=1} @Line{radius=10;fromorigin=true}
   - effect:particles{particle=large_smoke;amount=25;hS=.25;vS=1;repeat=15;repeatInterval=1} 
   - effect:particles{particle=large_smoke;amount=15;hS=.25;vS=1;repeat=15;repeatInterval=1} 
   - delay 15
@@ -357,7 +357,7 @@ incubate_increase:
   - stance{stance=hatched} false
   - score{o=incubate;v=<1800} true
   TargetConditions:
-  - blocktype{types=MAGMA_BLOCK,FIRE,LAVA} false
+  - blocktype{t=MAGMA_BLOCK,FIRE,LAVA} true
   Skills:
   - equip{item=torch:0}
   - effect:particles{particle=flame;amount=1;hS=0.5;vS=0.5;speed=0.01} @self

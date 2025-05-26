@@ -1,0 +1,20 @@
+oldpvp:
+  disable:
+    offhand: true
+    swap:
+      hands: true
+    attack:
+      cooldown: true
+  knockback:
+    enabled: true
+    snowball: 0.0
+    eggs: 0.0
+    enderpearl: 0.0
+  handling:
+    damage:
+      directly: false
+  damage:
+    multiplier:
+      hand: 1.0
+      item: 1.0
+  debug: false
